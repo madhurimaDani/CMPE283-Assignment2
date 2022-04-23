@@ -10,7 +10,7 @@
   - Built the kernel
   - Installed required kernel modules in the VM
   - Understood and researched about the code of the assignment
-  - Included the changes in the code  
+  - Included the discussed changes in the code  
   - Created and compiled test files
 - Shreemathi
   - Built the kernel
