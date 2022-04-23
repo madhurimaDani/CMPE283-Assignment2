@@ -114,5 +114,5 @@
   - No, the number of exits is not increasing at a steady rate. There are various VM instructions/operations that induce exits, such as EPT violation, RDRAND, I/O instruction, RDTSCP, and so on.
 
 - Approximately how many exits does a full VM boot entail?
-  - The number of exits after the first build, reboot and enter nested VM using the KVM is 187,420. This is not very accurate as there might have been a shutdown period and hardware interrupts in-between.
+  - After the first build, reboot, and enter nested VM using the KVM, there have been 187,420 exits. This isn't entirely accurate because there could have been a shutdown and hardware interruptions in the process.
 
