@@ -23,6 +23,8 @@
 
 - Base Setup
   - In Google Cloud Platform, spin up a VM as done in assignment 1
+  <img width="1436" alt="image" src="https://user-images.githubusercontent.com/51197183/164878010-17bca73f-541b-4591-920e-ca6963ae5965.png">
+
   - Fork the Kernel code from GitHub: git clone https://github.com/torvalds/linux.git into ersonal repository
   - Clone the Kernel code from personal repository into GCP VM
   - Kernel Code Compilation
