@@ -15,7 +15,7 @@
 - Shreemathi
   - Built the kernel
   - Rewatched lecture on canvas and understood steps to be performed
-  - Researched about cpuid instruction
+  - Researched about cpuid instruction and cpu leaf node
   - Understood where to make changes to implement the assignment
   - Created documentation and updated README.md
 
