@@ -106,7 +106,15 @@
 
      <img width="1393" alt="Screen Shot 2022-04-22 at 6 14 14 PM" src="https://user-images.githubusercontent.com/51197183/164874719-bea30e52-52be-4f33-9e36-61e5d6e5fc4a.png">
      
-   - Compiled and executed test program
+ - Compiled and executed test program
+   - execute test.c in nested vm
+   <img width="606" alt="image" src="https://user-images.githubusercontent.com/51197183/164882609-c42ff05b-173b-4182-9be4-ec804bedd36b.png">
+   
+   - Tailed logs in host VM:
+   <img width="404" alt="image" src="https://user-images.githubusercontent.com/51197183/164882633-58624f3a-84bb-4d16-b927-289e43e95a56.png">
+   <img width="649" alt="image" src="https://user-images.githubusercontent.com/51197183/164882646-8c4bd903-1e9e-495c-bf18-1665af86cc30.png">
+
+
 
  
  ### [3] Comment on Exit Frequency
@@ -114,5 +122,5 @@
   - No, the number of exits is not increasing at a steady rate. There are various VM instructions/operations that induce exits, such as EPT violation, RDRAND, I/O instruction, RDTSCP, and so on.
 
 - Approximately how many exits does a full VM boot entail?
-  - After the first build, reboot, and enter nested VM using the KVM, there have been 187,420 exits. This isn't entirely accurate because there could have been a shutdown and hardware interruptions in the process.
+  - After the first build, reboot, and enter nested VM using the KVM, there have been 188K exits. This isn't entirely accurate because there could have been a shutdown and hardware interruptions in the process.
 
